@@ -1,9 +1,12 @@
+package AdventOfCode.puzzles.tests;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import AdventOfCode.puzzles.Day6;
 
 public class Day6Test {
 

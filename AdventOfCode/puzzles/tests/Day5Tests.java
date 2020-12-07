@@ -1,5 +1,8 @@
+package AdventOfCode.puzzles.tests;
 import org.junit.Assert;
 import org.junit.Test;
+
+import AdventOfCode.puzzles.Day5;
 
 public class Day5Tests {
 	
