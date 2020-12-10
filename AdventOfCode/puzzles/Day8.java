@@ -37,7 +37,6 @@ public class Day8 {
 		if(instruction.equals("nop") || instruction.equals("jmp")) {
 			return 0;
 		} else {
-			System.out.println("Update by " + amount);
 			return amount;
 		}
 	}
@@ -67,9 +66,7 @@ public class Day8 {
 				set.add(index);
 				accumulator += updateAccumulatorByAmount(entry);
 				index += updateIndex(entry);
-				System.out.println(accumulator + " " + index);
 			} else {
-				System.out.println("break");
 				break;
 			}
 		}
@@ -122,7 +119,6 @@ public class Day8 {
 			if(!isInfLoop(entries)) {
 				return accumulatorValueAtInfLoop(entries);
 			}
-			System.out.println("Reset");
 			toUpdate.clear();
 			toUpdate.addAll(orig);
 			index++;
